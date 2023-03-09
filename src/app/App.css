@@ -1,0 +1,14 @@
+.container {
+  @apply flex flex-row h-full w-full bg-slate-900;
+}
+
+.menu {
+  @apply flex flex-col;
+  @apply h-full w-full max-w-sm;
+  @apply gap-3 p-10;
+  @apply bg-slate-500;
+}
+
+.main_content {
+  @apply p-10;
+}
